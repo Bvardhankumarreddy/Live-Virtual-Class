@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+img.transparent {
+    filter: opacity(80%);
+}
+img.highly-transparent {
+    filter: opacity(20%);
+}
+img.complete-sepia {
+    filter: sepia(100%);
+}
+img.partial-sepia {
+    filter: sepia(30%);
+}
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+          <td><img style="height:185px; width:185px; box-shadow: 10px 5px 5px burlywood;" src="./Images/LVC1.jpeg"></td>
+          <td><img style="height:185px; width:185px; box-shadow: 10px 5px 5px red;" class="transparent"; src="./Images/LVC2.jpeg"></td>
+          <td><img style="height:185px; width:185px; box-shadow: 5px 5px 5px green" src="./Images/LV3.jpeg"></td>
+        </tr>
+        <tr>
+          <td><img style="height:185px; width:185px; box-shadow: 10px 5px 5px green" src="./Images/LVC4.jpeg"></td>
+          <td><img style="height:185px; width:185px; box-shadow: 10px 5px 5px red" class="highly-transparent"src="./Images/LVC5.png"></td>
+          <td><img style="height:185px; width:185px; box-shadow: 5px 5px 5px burlywood" src="./Images/LV6.jpeg"></td>
+        </tr>
+        <tr>
+          <td><img style="height:185px; width:185px; box-shadow: 10px 5px 5px burlywood;" src="./Images/LVC1.jpeg"></td>
+          <td><img style="height:185px; width:185px; box-shadow: 10px 5px 5px red;" class="complete-sepia" src="./Images/LVC2.jpeg"></td>
+          <td><img style="height:185px; width:185px; box-shadow: 5px 5px 5px green" class="pasrtial-sepia" src="./Images/LV3.jpeg"></td>
+        </tr>
+      </table>
+</body>
+</html>
