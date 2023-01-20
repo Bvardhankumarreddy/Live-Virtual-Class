@@ -1,0 +1,45 @@
+.rf{
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgrey;
+    border-radius: 30px;
+    width: 80%;
+    border: 10px solid green;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+      }
+      .rf1{
+    
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    width: 80%;
+    border: 10px solid red;
+    padding: 10px;
+    margin: 10px;
+      }
+    .frm{
+      width: 50px;
+      text-align: left;
+    }
+  
+  .sub{
+      padding:10px;
+  }
+
+  .box{
+    padding: 10px;
+  }
+  ::placeholder {
+    color: red;
+    font-size:20px;
+  }
+  [type="radio"] {
+    height:22px; 
+    width:22px;
+    }
+.button{
+
+    font-size: 25px;
+}
