@@ -7,54 +7,62 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="./CSS/style3.css">
     <script src="./Javascript/Reg.js"></script>
+    
 
 </head>
 
 
 <body>
-    <div class="rf">Registration For Live Virtual Class</div>
-    <div class="rf1"><form name="myForm" action="welcome.html" onsubmit="return validateForm()"">
-      
+  <div class="arrange1">
+  <div class="rf">Registration For Live Virtual Class</div>
+  
+  <div class="rf1"><form name="myForm" action="welcome.html" onsubmit="return validateForm()">
       <label class = "frm">Name</label><br>
-      <textarea class ="box" id="fname" name="name" placeholder="Your Name Here" rows="1" cols="40"></textarea><br><br>
-
-        <!--Gender-->
-        <label class = "frm">Gender</label><br>
-        <input type="radio" id="male" name="gender" value="male" >
-          <label class ="box" for="male">Male</label>
-          <input type="radio" id="female" name="gender" value="female" >
-          <label for="femlae">Female</label><br><br>
+      <textarea class ="box" id="fname" name="name" placeholder="Your Name Here" rows="2" cols="40"></textarea><br><br>
+        
        <!--Gender-->
+       <label class = "frm">Gender</label><br>
+       <input type="radio" id="male" name="gender" value="male" >
+       <label  for="male">Male</label>
+       <input type="radio" id="female" name="gender" value="female" >
+       <label for="femlae">Female</label><br><br>
+      <!--Gender-->
 
-       <!--Email-->
-       <label class = "frm" >Email</label><br>
-        <textarea class ="box" type="email" id="email" name="email" placeholder="Your Email" rows="1" cols="40"></textarea><br><br>
+      <!--Email-->
+      <label class = "frm" >Email</label><br>
+       <textarea class ="box" type="email" id="email" name="email" placeholder="Your Email" rows="2" cols="40"></textarea><br><br>
 
-       <!--Email-->
+      <!--Email-->
+     
+      <!--Courses Required-->
 
+      <label class = "frm">Courses Required</label> <br>
+       <select style="height: 50px; width:12vh; font-size: 20px;" id="courses" name="courses">
+           <option  value="Mean">Mean</option>
+           <option  value="Mern">Mern</option>
+           <option value="Devops">Deveops</option>
+         </select><br><br>
+       
        <!--Courses Required-->
 
-       <label class = "frm">Courses Required</label> <br>
-        <select style="height: 50px; width:20vh; font-size: 25px;" id="courses" name="courses">
-            <option  value="Mean">Mean</option>
-            <option  value="Mern">Mern</option>
-            <option value="Devops">Deveops</option>
-          </select><br><br>
-        
-        <!--Courses Required-->
+       <!--Remarks-->
+
+       <label class = "frm">Other Requirements</label><br>
+       <textarea class ="box" id="Remarks" name="Reamrks" placeholder="Any courses needed to be added. If yes mention it. " rows="6" cols="50"></textarea><br><br>
 
         <!--Remarks-->
+        
+       <input  onclick="details()" class = "button" type="submit">
 
-        <label class = "frm">Other Requirements</label><br>
-        <textarea class ="box" id="Remarks" name="Reamrks" placeholder="Any courses needed to be added. If yes mention it. " rows="6" cols="70"></textarea><br><br>
-
-         <!--Remarks-->
-         
-        <input  onclick="details()" class = "button" type="submit">
-      </form> </div>
-    
-    
-</body>
+       
+     </form> 
+   </div> 
+            <div class="arrange2">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+               <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_tpa51dr0.json"  background="transparent"  speed="1"  style="width: 100vh; height: 120vh;"  loop  autoplay></lottie-player>
+            </div>
+          </div>
+    </body>
 <script>
     function alerttrigger(){
         alert("Form Submitted!#")

@@ -1,0 +1,419 @@
+table, th, td {
+  border: 3px solid black
+  
+  
+}
+table{
+  border-spacing: 20px;
+}
+table td{
+  text-align:center;
+}
+
+/* Image 1 */
+
+.zoom {
+  padding: 50px;
+  transition: transform .3s;
+  width: 30vh;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+
+
+/* Image 1 */
+
+
+/* Image 2 */
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 30vh;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* Image 2 */
+
+/* Image 3 */
+
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.image3 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container3:hover .image3 {
+  opacity: 0.3;
+}
+
+.container3:hover .middle {
+  opacity: 1;
+}
+
+.text3 {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* Image 3 */
+
+
+/*Image 4 */
+
+.container4 {
+  position: relative;
+  width: 50%;
+}
+
+.image4 {
+  display: block;
+  width: 30%;
+  height: ;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 30vh;
+  height:0;
+  transition: .5s ease;
+}
+
+.container4:hover .overlay4 {
+  bottom: 0;
+  height: 100%;
+}
+
+.text4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*Image 4 */
+
+
+/* Image 5 */
+
+.container5 {
+  position: relative;
+  width: 50%;
+}
+
+.image5 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 30vh;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container5:hover .overlay5 {
+  height: 100%;
+}
+
+.text5 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Image 5 */
+
+
+/* Image 6 */
+.container6 {
+  position: relative;
+  width: 50%;
+}
+
+.image6 {
+  display: block;
+  width: 30vh;
+  height: auto;
+}
+
+.overlay6 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container6:hover .overlay6 {
+  width: 30vh;
+  left: 0;
+}
+
+.text6 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/* Image 6 */
+
+/* Image 7 */
+.container7 {
+  position: relative;
+  width: 50%;
+}
+
+.image7 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 30vh;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container7:hover .overlay7 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text7 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/* Image 7 */
+
+/*  Image 8 */
+
+* {box-sizing: border-box;}
+
+.container8 {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image8 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay8 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 30vh;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container8:hover .overlay8 {
+  opacity: 1;
+}
+
+/* Image 8 */
+
+
+/* Image 9 */
+
+
+.container9 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image9 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay9 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+
+.container9:hover .overlay9 {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+/* Image 9 */
+
+/* Image 11 */
+.image11 {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+}
+/* Image 11*/
+
+
+/* Image 12 */
+.image12 {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* Image 12*/
+
+/* Image 14 */
+.image14 {
+  -webkit-filter: blur(5px); 
+  filter: blur(5px);
+}
+/* Image 14 */
+
+/* Image 15 */
+.image15 {
+  -webkit-filter: blur(15px); 
+  filter: blur(15px);
+}
+/* Image 15 */

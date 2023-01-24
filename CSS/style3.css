@@ -1,45 +1,52 @@
 .rf{
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     background-color: lightgrey;
     border-radius: 30px;
-    width: 70%;
-    border: 10px solid green;
+    width: 40%;
+    border: 5px solid green;
     padding: 10px;
     margin: 10px;
     margin-bottom: 30px;
-      }
-      .rf1{
+  }
+.rf1{
     
-    font-size: 30px;
-    border-radius: 30px;
-    background-color: lightgrey;
-    width: 70%;
-    border: 10px solid red;
-    padding: 10px;
-    margin: 10px;
-      }
-    .frm{
-      width: 50px;
-      text-align: left;
-    }
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: lightgrey;
+  width: 40%;
+  border: 5px solid rgba(207, 184, 98, 0.765);
+  padding: 10px;
+  margin: 10px;
+}
+.frm{
+  width: 300px;
+  text-align: left;
+}
   
-  .sub{
-      padding:10px;
-  }
+.sub{
+  padding:10px;
+}
 
-  .box{
-    padding: 10px;
-  }
-  ::placeholder {
-    color: red;
-    font-size:20px;
-  }
-  [type="radio"] {
-    height:22px; 
-    width:22px;
+
+::placeholder {
+  color: blue;
+  font-size:20px;
+}
+[type="radio"] {
+    height:20px; 
+    width:20px;
     }
 .button{
 
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.arrange1{
+  margin-left: 5%;
+}
+
+.arrange2{
+  margin-left: 45%;
+  margin-top: -60%;
 }

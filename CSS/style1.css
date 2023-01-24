@@ -117,15 +117,15 @@ img {vertical-align: middle;}
   color: white;
   height: 50vh;
   margin-top:90px;
-  margin-left:600px;
+  margin-left:550px;
 }
 
 .closebtn {
-  color: white;
+  color: black;
   font-weight: bold;
-  /*float: right;*/
-  top:98%;
-  right:70vh;
+  
+  top:90%;
+  right:77vh;
   position:absolute;
   font-size: 22px;
   line-height: 10px;
@@ -150,9 +150,10 @@ margin-left:45px;
 
 /*Footer Section */
 footer{
+
 text-align: center;
 padding: 3px;
-background-color: DarkSalmon;
+background-color: lightblue;
 color: white;
 
 }
@@ -261,4 +262,36 @@ table:after {
   }
 }
 
+/* Dropdown List */
 
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Dropdown List */
