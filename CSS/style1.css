@@ -150,7 +150,7 @@ margin-left:45px;
 
 /*Footer Section */
 footer{
-
+position:fixed;
 text-align: center;
 padding: 3px;
 background-color: lightblue;
